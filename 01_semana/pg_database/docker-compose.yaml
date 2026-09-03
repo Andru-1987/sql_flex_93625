@@ -12,6 +12,7 @@ services:
     volumes:
       - pgvector_data:/var/lib/postgresql/data
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./generator.sh:/generator.sh
 
 volumes:
   pgvector_data:
