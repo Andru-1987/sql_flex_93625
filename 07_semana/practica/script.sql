@@ -9,7 +9,7 @@
  
  -- 0. Extensiones
 
- CREATE DATABASE IF NOT EXISTS curso_pg_moderno;
+ CREATE DATABASE curso_pg_moderno;
 
  CREATE EXTENSION IF NOT EXISTS vector;
  CREATE EXTENSION IF NOT EXISTS pg_trgm;   -- útil para algún ejercicio extra de FTS/similaridad
