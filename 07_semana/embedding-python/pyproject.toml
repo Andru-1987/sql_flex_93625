@@ -1,0 +1,13 @@
+[project]
+name = "embeddings-loader"
+version = "0.1.0"
+description = "Carga embeddings reales de gemini-embedding-001 en la tabla documentos (Semana 7 - pgvector)"
+requires-python = ">=3.11"
+dependencies = [
+    "google-genai>=1.0.0",
+    "psycopg[binary]>=3.2",
+    "python-dotenv>=1.0.1",
+]
+
+[tool.ruff]
+line-length = 100
